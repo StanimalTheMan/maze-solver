@@ -43,3 +43,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+# Hi there I dont know how to contact you, but I can help you with this project, I do a decent job with GUI stuff mainly tkinter, have a look at my project. 
