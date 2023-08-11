@@ -24,15 +24,6 @@ class Maze:
         self._create_cells()
 
     def _create_cells(self):
-        # self._cells = []
-        # for row in range(self._num_rows):
-        #     # list of cell objects
-        #     self._cells = [Cell(self._win) for _ in range(self._num_cols)]
-
-        # #  draw each Cell
-        # for row in range(self._num_rows):
-        #     for col in range(self._num_cols):
-        #         self._draw_cell(row, col)
         for i in range(self._num_cols):
             col_cells = []
             for j in range(self._num_rows):
@@ -44,11 +35,6 @@ class Maze:
 
                 
     def _draw_cell(self, i, j):
-        # x1 = self._x1 + j * self._cell_size_x
-        # y1 = self._y1 + i * self._cell_size_y
-        # x2 = self._x1 + (j + 1) * self._cell_size_x
-        # y2 = self._y1 + (i + 1) * self._cell_size_y
-        # self._cells[i].draw(x1, y1, x2, y2)
         x1 = self._x1 + i * self._cell_size_x
         y1 = self._y1 + j * self._cell_size_y
         x2 = x1 + self._cell_size_x
